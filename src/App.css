@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+.col-md-2{
+  background: #61dafb;
+}
+.row{
+  --bs-gutter-x: 0rem;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+#zvezda{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text1{
+  display: flex;
+  margin:5px 35%;
+  font-size:20px;
+
+}
+
+.box {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: orangered;
+}
