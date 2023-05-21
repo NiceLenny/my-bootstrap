@@ -1,9 +1,14 @@
 import React from 'react'
 import { useForm } from "react-hook-form";
+import axios from 'axios';
 
 const Form = () => {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
-  const onSubmit = data => console.log(data);
+  const onSubmit = (data) => {
+    axios.post('https://637f91ca2f8f56e28e904e7d.mockapi.io/form', data)
+    alert('Заявка отправлена')
+    console.log(data)
+  }
 
   console.log(watch("example")); 
 return (
