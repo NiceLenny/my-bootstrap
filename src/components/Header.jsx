@@ -12,7 +12,7 @@ const Header = () => {
     <div>
          <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand> <Link to={'/'}>A&B</Link> </Navbar.Brand>
+          <Navbar.Brand> <Link to={'/'}>Роллы Кумихо</Link> </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link>
               <Link to={'/'}>
@@ -20,17 +20,17 @@ const Header = () => {
               </Link>
             </Nav.Link>
              <Nav.Link> 
-            <Link to={'/favorites'}>
+            <Link to={'/'}>
             Избранное
             </Link>
              </Nav.Link>
             <Nav.Link>
-              <Link to={'/cart'}>
+              <Link to={'/'}>
               Корзина
               </Link>
               </Nav.Link>
             <Nav.Link>
-              <Link to={'/info'}>
+              <Link to={'/'}>
               Описание
               </Link>
             </Nav.Link>
