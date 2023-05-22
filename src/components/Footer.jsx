@@ -6,10 +6,10 @@ const Footer = () => {
         <footer className='row row-col-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top'>
           <div className='col mb-3'>
             <a className=''>
-              <img src="img/logoKu.jpg" className='bi me-2' width={150} />
+              <img src="img/img1.png" className='bi me-2' width={150} />
             </a>
             <p>
-              Роллы Кумихо - вкусно каждый день!
+              A&B - любой каприз за ваши деньги!
             </p>
           </div>
           <div className='col mb-4'>
